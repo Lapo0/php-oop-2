@@ -1,7 +1,7 @@
 <?php
 
 // RICHIEDERE IL FILE CONTENENTE LA CLASSE PRODOTTO
-require_once __DIR__ . "/Product.php";
+require_once __DIR__ . "/Food.php";
 
 // CREARE UNA CLASSE FIGLIA DIRETTA DI Product
 class Categories extends Product {

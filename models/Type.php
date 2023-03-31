@@ -11,7 +11,7 @@ class Type extends Product {
     public string $toy;
     public string $sit;
 
-    function __construct($_food, $_toy, $_sit) {
+    function __construct(Food $_food, $_toy, $_sit) {
 
 
         $this->food = $_food;
