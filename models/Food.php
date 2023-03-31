@@ -1,11 +1,12 @@
 <?php
 
-class Food extends Type{
+class Food extends Product{
     
     public $secco;
     public $umido;
     public $verdura;
 
+    
 
 }
 

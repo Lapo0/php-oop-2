@@ -9,6 +9,10 @@ class Product {
     protected int $price;
     protected string $image;
 
+    public string $food;
+    public string $toy;
+    public string $sit;
+
     // CREARE UNA FUNZIONE CONSTRUTTRICE A CUI PASSARE LE VARIABILI
     function __construct($_name, $_price, $_image) {
 
@@ -17,7 +21,6 @@ class Product {
         $this->price = $_price;
         $this->image = $_image;
     }
-
 
     // CREARE FUNZIONE PUBLIC PER POTER UTILIZZARE LE VARIABILI PROTECTED COME ISTANZE
     public function getName() {

@@ -1,19 +1,16 @@
 <?php
 
 // RICHIEDERE I TIPI DI PRODOTTI E LE CATEGORIE DEI PRODOTTI
-require_once "./models/Type.php";
-require_once "./models/Animal.php";
+require_once "./models/Category.php";
+require_once "./models/Product.php";
 
 // ISTANZIARE LE VARIABILI
-$animal1 = new Categories("Cane", "Osso", 10, "ciaoneciaoneciaone");
 
-$animal2 = new Categories("Gatto", "Lana", 8, "CIAONECIAONECIAONE");
+$cane = new Category("cane");
+$gatto= new Category("gatto");
 
-var_dump($animal1, $animal2);
+var_dump($cane, $gatto);
 
-$product1 = new Type(new Food("crocchette"), "gioco", "cuccia");
-
-var_dump($product1);
 
 
 ?>
