@@ -9,11 +9,11 @@ class Categories extends Product {
     // DEFINIRE VARIABILI DA ISTANZIARE
     public string $animal;
 
-    function __construct($_animal) {
+    function __construct($_animal, $_name, $_price, $_image) {
 
-        parent::__construct("Osso", 10, "ciao");
+        parent::__construct($_name, $_price, $_image);
 
-        $this->aniaml = $_animal;
+        $this->animal = $_animal;
     }
 
 }
