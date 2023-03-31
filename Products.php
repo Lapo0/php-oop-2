@@ -13,15 +13,15 @@
 
     var_dump($cane, $gatto);
 
-    $product1 = new Food("Crocchette multiuso Cane & Gatto", 1, "https://i0.wp.com/www.bizon.it/wp-content/uploads/2020/11/crocchette-per-cani-superpremium-maiale-e-patate-kg-10.jpg", "23/12/2023");
+    $product1 = new Food("Crocchette multiuso Cane & Gatto", 1, "https://i0.wp.com/www.bizon.it/wp-content/uploads/2020/11/crocchette-per-cani-superpremium-maiale-e-patate-kg-10.jpg", "23/12/2023", $cane);
     $product1->food = "crocchette";
     var_dump($product1);
 
-    $product2 = new Toy("Pallina suonante", 22, "https://www.pacopetshop.it/3500-thickbox_default/palla-5-sensi-gioco-per-cani.jpg", true);
+    $product2 = new Toy("Pallina suonante", 22, "https://www.pacopetshop.it/3500-thickbox_default/palla-5-sensi-gioco-per-cani.jpg", true, $gatto);
     $product2->toy = "pallina";
     var_dump($product2);
 
-    $product3 = new Sit("Cuccia in piume di beccaccino", 15, "https://www.gardenbedettishop.com/16599-large_default/cuccia-per-cani-charles-50-ferplast.jpg", "LARGE", "feathers");
+    $product3 = new Sit("Cuccia in piume di beccaccino", 15, "https://www.gardenbedettishop.com/16599-large_default/cuccia-per-cani-charles-50-ferplast.jpg", "LARGE", "feathers", $cane);
     $product3->sit = "cuccia";
     var_dump($product3);
 
