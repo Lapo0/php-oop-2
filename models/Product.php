@@ -37,6 +37,22 @@ class Product {
     public function getImage() {
         return $this->image;
     }
+
+    public function printCardHTML() {
+    
+        ?>
+            <div class="col">
+            <div class="card">
+                <img src="<?php echo $this->getImage() ?>" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title"><?php echo $this->getName() ?></h5>
+                    <li><strong>Prezzo:</strong> <?php echo $this->getPrice() ?> <strong>€</strong> </li>
+                </ul>
+                </div>
+            </div>
+            </div>
+        <?php
+    }
 }
 
 
