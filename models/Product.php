@@ -1,5 +1,6 @@
 <?php
 
+require_once __DIR__ . "/Category.php";
 
 // CREARE CLASSE PER I PRODOTTI IN GENERALE
 class Product {
@@ -8,6 +9,8 @@ class Product {
     protected string $name;
     protected int $price;
     protected string $image;
+    
+    public Category $categoria;
 
     public string $food;
     public string $toy;

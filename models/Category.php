@@ -10,7 +10,6 @@ class Category {
 
         $this->animal = $_animal;
     }
-
 }
 
 ?>
