@@ -13,8 +13,9 @@
 
     var_dump($cane, $gatto);
 
-    $product1 = new Food("Crocchette multiuso Cane & Gatto", 1, "https://i0.wp.com/www.bizon.it/wp-content/uploads/2020/11/crocchette-per-cani-superpremium-maiale-e-patate-kg-10.jpg", "23/12/2023", $cane, 5);
+    $product1 = new Food("Crocchette multiuso Cane & Gatto", 1, "https://i0.wp.com/www.bizon.it/wp-content/uploads/2020/11/crocchette-per-cani-superpremium-maiale-e-patate-kg-10.jpg", "23/12/2023", $cane, null);
     $product1->food = "crocchette";
+    $product1->weight = 55;
     var_dump($product1);
 
     $product2 = new Toy("Pallina suonante", 22, "https://www.pacopetshop.it/3500-thickbox_default/palla-5-sensi-gioco-per-cani.jpg", true, $gatto);
