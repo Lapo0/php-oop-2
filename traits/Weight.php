@@ -2,13 +2,16 @@
 
 trait Weight {
 
-    public int $weight;
+    public $weight;
 
     public function getWeight() {
         return $this->weight;
     }
 
     public function setWeight($weight) {
+
+        $this->isNum($weight);
+
         $this->weight = $weight;
 
         return $this;

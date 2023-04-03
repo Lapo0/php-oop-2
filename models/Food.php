@@ -13,6 +13,7 @@ class Food extends Product{
 
         parent::__construct($_name, $_price, $_image, $category);
         $this->expiration = $_expiration;
+        $this->setWeight($weight);
 
     }
 
