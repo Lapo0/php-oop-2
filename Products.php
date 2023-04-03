@@ -5,7 +5,6 @@
     require_once "./models/Food.php";
     require_once "./models/Toy.php";
     require_once "./models/Sit.php";
-    require_once "./traits/Weight.php";
 
     // ISTANZIARE LE VARIABILI
 
@@ -14,7 +13,7 @@
 
     var_dump($cane, $gatto);
 
-    $product1 = new Food("Crocchette multiuso Cane & Gatto", 1, "https://i0.wp.com/www.bizon.it/wp-content/uploads/2020/11/crocchette-per-cani-superpremium-maiale-e-patate-kg-10.jpg", "23/12/2023", $cane);
+    $product1 = new Food("Crocchette multiuso Cane & Gatto", 1, "https://i0.wp.com/www.bizon.it/wp-content/uploads/2020/11/crocchette-per-cani-superpremium-maiale-e-patate-kg-10.jpg", "23/12/2023", $cane, 5);
     $product1->food = "crocchette";
     var_dump($product1);
 
