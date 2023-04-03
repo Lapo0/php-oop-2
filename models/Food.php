@@ -5,7 +5,6 @@ require_once __DIR__ . "/../traits/Weight.php";
 
 class Food extends Product{
 
-
     use Weight;
 
     public $expiration;

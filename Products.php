@@ -5,6 +5,7 @@
     require_once "./models/Food.php";
     require_once "./models/Toy.php";
     require_once "./models/Sit.php";
+    require_once "./traits/Weight.php";
 
     // ISTANZIARE LE VARIABILI
 
