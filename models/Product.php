@@ -4,7 +4,7 @@ require_once __DIR__ . "/Category.php";
 
 // CREARE CLASSE PER I PRODOTTI IN GENERALE
 class Product {
-
+    
     // CREARE VARIABILI PER POI ISTANZIARLE
     protected string $name;
     protected float $price;
