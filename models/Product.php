@@ -7,7 +7,7 @@ class Product {
 
     // CREARE VARIABILI PER POI ISTANZIARLE
     protected string $name;
-    protected int $price;
+    protected float $price;
     protected string $image;
     
     public Category $category;
@@ -43,7 +43,7 @@ class Product {
     
         ?>
             <div class="col">
-            <div class="card">
+            <div class="card h-100">
                 <img src="<?php echo $this->getImage() ?>" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h5 class="card-title"><?php echo $this->getName() ?></h5>
