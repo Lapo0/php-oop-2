@@ -13,6 +13,12 @@ trait Weight {
 
         return $this;
     }
+
+    public function isNum($weight) {
+        if(!is_numeric($weight)) {
+            throw new Exception("Il testo inserito $weight deve essere un numero.");
+        }
+    }
 }
 
 
